@@ -45,3 +45,5 @@ def ping():
 if __name__ == "__main__":
     # Исправление №4: debug выключен
     app.run(debug=False)
+
+import nonexistent_module
