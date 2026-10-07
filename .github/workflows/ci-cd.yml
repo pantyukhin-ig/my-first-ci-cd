@@ -74,7 +74,7 @@ jobs:
           echo "Проблем уровня HIGH не найдено."
 
       - name: Run Trivy (dependency scan)
-        uses: aquasecurity/trivy-action@0.31.0
+        uses: aquasecurity/trivy-action@0.36.0
         with:
           scan-type: fs
           scan-ref: .
