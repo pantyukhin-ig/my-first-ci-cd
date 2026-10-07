@@ -34,7 +34,7 @@ def ping():
 
     # Исправление №3, слой 2: shell=False
     result = subprocess.run(
-        ["ping", "-c", "1", host],
+        ["/bin/ping", "-c", "1", host],
         capture_output=True,
         check=False,
         timeout=5,
